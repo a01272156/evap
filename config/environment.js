@@ -30,6 +30,14 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.firebase={
+      apiKey: "AIzaSyA_GzbUl3Yz25eHmIf7hbDKzXGc5vK1rVI",
+      authDomain: "evap-eca46.firebaseapp.com",
+      databaseURL: "https://evap-eca46.firebaseio.com",
+      projectId: "evap-eca46",
+      storageBucket: "",
+      messagingSenderId: "272092139917"
+    }
   }
 
   if (environment === 'test') {
